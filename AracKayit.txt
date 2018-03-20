@@ -1,7 +1,3 @@
-UcanGemi_1 asdsa siyah 20 1 30
-UcanGemi_2 ahmetmanga 2 3 2 4
-Ucak_1 2 5 5 5 5
-Otomobil_1 oto oto 4 5 0 5 benzinli
 
 
-UcanGemi_3 kasmdsakds ksakmd 20 20 202
+Gemi_1 duzenlendi siyah 0 2 2

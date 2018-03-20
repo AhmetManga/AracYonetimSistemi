@@ -23,7 +23,7 @@ public class Bisiklet extends Kara {
     public Bisiklet(String m, String r, int h, int y, int u, int t,String id){
         super(m,r,h,y,u,t);
         setID();
-        if(id == "0"){ setID(); dosyaEkle(); }else{ bisikletID = id; }
+        if(id == "0"){ setID(); }else{ bisikletID = id; }
     }
     @Override
     public void dosyaEkle(){

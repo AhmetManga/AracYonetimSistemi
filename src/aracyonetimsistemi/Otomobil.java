@@ -25,7 +25,7 @@ public class Otomobil extends Kara{
     public Otomobil(String m, String r, int h, int y, int u, int t, String ykt, String id){
         super(m,r,h,y,u,t);
         yakit = ykt;
-        if(id == "0"){ setID(); dosyaEkle(); }else{ aracID = id; }
+        if(id == "0"){ setID(); }else{ aracID = id; }
         
         }
     

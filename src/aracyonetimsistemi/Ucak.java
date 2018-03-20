@@ -23,7 +23,7 @@ public class Ucak extends Hava {
     
     public Ucak(String m, String r, int h, int y, int u, String id){
         super(m,r,h,y,u);
-        if(id == "0"){ setID(); dosyaEkle(); }else{ ucakID = id; }
+        if(id == "0"){ setID(); }else{ ucakID = id; }
     }
     
     @Override

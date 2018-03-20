@@ -23,7 +23,7 @@ public class Gemi extends Deniz {
     
     public Gemi(String m, String r, int h, int y, int u, String id){
         super(m,r,h,y,u);      
-        if(id == "0"){ setID(); dosyaEkle(); }else{ gemiID = id; }
+        if(id == "0"){ setID(); }else{ gemiID = id; }
     }
     
     @Override
