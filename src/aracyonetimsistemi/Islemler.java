@@ -439,7 +439,7 @@ public class Islemler {
         
         int satir = 0;
         while(satir >= 0){
-            System.out.println(" ------ Uçan Gemi Bilgileri ------- ");
+            System.out.println(" ------ Araç Bilgileri ------- ");
         System.out.println("ID: " + a.getID());
         System.out.println("1- Marka: " + a.getMarka() + "\n2- Renk: " + a.getRenk());
         System.out.println("3- Hız: " + a.getHiz() + "\n4- Yolcu Sayısı: " + a.getYolcuSayisi());
