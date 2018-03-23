@@ -113,10 +113,48 @@ public class Islemler {
         secimOku(false);
     }
     
-    public void veriGuncelle(){
-        System.out.println("Güncellemek istediğiniz verinin ID ' sini girin:");
-        veriID = sc.next();
-        guncellemeIslemleri();
+     public void veriGuncelle(){
+        System.out.println("Güncellemek istediğiniz araç türünü seçin:");
+        System.out.println("1. Otomobil");
+        System.out.println("2. Bisiklet");
+        System.out.println("3. Gemi");
+        System.out.println("4. Uçak");
+        System.out.println("5. Uçan Gemi");
+        System.out.println("Bir önceki menüye geri dön - 0");
+        System.out.println("Çıkış (-1)");
+        katman = 1;
+        secim = sc.nextInt();
+        if(secim == 0){
+            basaDon();
+        }else if(secim == -1){
+            System.exit(0);
+        }else{
+            if(secim == 1){
+                veriID = "Otomobil_";
+                String[] tasit = {"Otomobil"};
+                tasitListele(tasit,"Kara");
+            }else if(secim == 2){
+                String[] tasit = {"Bisiklet"};
+                veriID = "Bisiklet_";
+                tasitListele(tasit,"Kara");
+            }else if(secim == 3){
+                veriID = "Gemi_";
+                 String[] tasit = {"Gemi"};
+                tasitListele(tasit,"Deniz");
+            }else if(secim == 4){
+                veriID = "Ucak_";
+                 String[] tasit = {"Ucak"};
+                tasitListele(tasit,"Hava");
+            }else{
+                veriID = "UcanGemi_";
+                 String[] tasit = {"UcanGemi"};
+                tasitListele(tasit,"HavaDeniz");
+            }
+            System.out.print(veriID + " id sırasını girin: ");
+            veriID += sc.next();
+            guncellemeIslemleri();
+        }
+        
     }
     
     public void otomobilEkle(){

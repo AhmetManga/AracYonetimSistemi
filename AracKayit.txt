@@ -1,6 +1,7 @@
 Bisiklet_2 ibiskelt 2sakdmsa 20 2 2 2
-Otomobil_1 oto siyah 0 22 30 4 22
 Gemi_1 duzenlendi siyah 0 2 2
-
-
 Ucak_1 sad 20 202 20 2
+Otomobil_1 asdsasdasdasd siyah 0 22 30 4 22
+
+
+UcanGemi_1 ucangemi 5 5 5 5
